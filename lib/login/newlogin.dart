@@ -19,7 +19,7 @@ class _MyappState extends State<Myapp> {
       body: Container(
         height: height,
         width: width,
-        child: SingleChildScrollView(
+
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -27,7 +27,7 @@ class _MyappState extends State<Myapp> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text('Login',style: TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold),),
                   ],
@@ -94,7 +94,7 @@ class _MyappState extends State<Myapp> {
 
             ],
           ),
-        ),
+
       ),
     );
   }
@@ -115,7 +115,7 @@ class _SecondState extends State<Second> {
       body: Container(
         height: height,
         width: width,
-        child: SingleChildScrollView(
+
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -127,9 +127,10 @@ class _SecondState extends State<Second> {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('Signup',style: TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold),),
+                    Text('Signup',style:
+                    TextStyle(fontSize: 25.0,fontWeight: FontWeight.bold),),
                   ],
                 ),
               ),
@@ -172,14 +173,15 @@ class _SecondState extends State<Second> {
               SizedBox(height:20.0),
               GestureDetector(
                 onTap: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Myapp()));
+                  Navigator.push(context, MaterialPageRoute(
+                      builder: (context)=>Myapp()));
                 },
                 child: Text.rich(
                   TextSpan(
                       text: 'Already have an account',
                       children: [
                         TextSpan(
-                          text: 'Signin',
+                          text: ' Signin',
                           style: TextStyle(
                               color: Color(0xffEE7B23)
                           ),
@@ -192,7 +194,7 @@ class _SecondState extends State<Second> {
 
             ],
           ),
-        ),
+
       ),
     );
   }
