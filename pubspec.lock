@@ -258,13 +258,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.1"
-  flutter_plugin_android_lifecycle:
-    dependency: transitive
-    description:
-      name: flutter_plugin_android_lifecycle
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -296,6 +289,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
+<<<<<<< HEAD
   google_maps_flutter:
     dependency: "direct main"
     description:
@@ -317,6 +311,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
+=======
+>>>>>>> parent of 9bb1f45... Google Maps integration
   http:
     dependency: "direct main"
     description:
@@ -588,13 +584,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0"
-  stream_transform:
-    dependency: transitive
-    description:
-      name: stream_transform
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0"
   string_scanner:
     dependency: transitive
     description:

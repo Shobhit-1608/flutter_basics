@@ -20,8 +20,11 @@ dependencies:
   firebase_core:
   firebase_messaging:
   flutter_local_notifications:
+<<<<<<< HEAD
   google_maps_flutter:
   json_serializable:
+=======
+>>>>>>> parent of 9bb1f45... Google Maps integration
 
 dev_dependencies:
   flutter_test:
