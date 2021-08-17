@@ -21,12 +21,15 @@ dependencies:
   firebase_messaging:
   flutter_local_notifications:
   google_maps_flutter:
+  json_serializable:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   sqflite:
   path:
+  pedantic:
+  build_runner:
 
 
 flutter:
